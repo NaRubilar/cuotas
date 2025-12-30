@@ -3,7 +3,7 @@ import type { Debt } from "./models/Debt";
 import { loadDebts, saveDebts } from "./storage/debtsStorage";
 import DebtsList from "./pages/DebtsList";
 import NewDebt from "./pages/NewDebt";
-import "./styles/app.css";
+import "./styles/App.css";
 
 type Screen = "list" | "form";
 
